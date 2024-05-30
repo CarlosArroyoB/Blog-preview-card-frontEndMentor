@@ -1,0 +1,80 @@
+:root{
+    --white:#FFFFFF;
+    --yellow:#F4D04E;
+    --grey:#7F7F7F;
+    --black: #111111;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+body{
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.carta{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 384px;
+    height: 522px;
+    border-radius: 20px;
+    align-items: center;
+    margin: 0;
+    box-shadow: 10px 7px  black;
+}
+
+div.content{
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    height: 194px;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 0.1em 0em;
+    margin: 1em 0 ;
+    font-size: 14px;
+    height: 29px;
+    width: 82px;
+    font-family: "Figtree extrabold";
+    background-color: var(--yellow);
+}
+.publishDate{
+    font-size: 14px;
+    font-family: "Figtree bold";
+}
+.title{
+    font-family: "Figtree extrabold";
+    margin: 0.5em 0;
+}
+.content .description{
+    color: var(--grey);
+    font-size: 16px;
+    font-family: "Figtree Medium";
+    margin: 0;
+}
+div.author{
+  width: 336px;
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+
+}
+.authorName{
+    margin-left: 0.5em;
+}
+div.author img{
+    border-radius: 1em;
+    height: 32px;
+    width: 32px;
+}
